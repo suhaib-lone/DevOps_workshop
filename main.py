@@ -1,9 +1,9 @@
 from rule import add
 
-stars,hashes=add()
+sr,hs=add()
 
-for i in range(stars):
+for i in range(sr):
     print(i*"*")
 
-for j in range(hashes):
+for j in range(hs):
     print(j*"#")
