@@ -1,6 +1,9 @@
 from rule import add
 
-stars=add()
+sr,hs=add()
 
-for i in range(stars):
-    print(i*"#*")
+for i in range(sr):
+    print(i*"*")
+
+for j in range(hs):
+    print(j*"#")
