@@ -1,3 +1,4 @@
 def add():
     stars=5
-    return stars
+    hashes=5
+    return stars, hashes
